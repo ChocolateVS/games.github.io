@@ -1,0 +1,80 @@
+h1 {
+    font-size: 3vw;
+	color: yellow;
+	position:absolute; top: 40%; left: 44%;
+}
+.footer { 
+  color: yellow;
+  position: absolute; bottom: 0%; left: 0%; 
+  font-size: 1vw;
+}
+
+
+
+li a:hover {
+	color: purple;
+	background-color: 555;
+}
+li {
+	display: inline;
+	color: linear-gradient(to bottom, #9900cc 0%, #cc00cc 100%);
+	font-size: 1vw;
+	text-decoration: none;
+}
+a {
+	display: inline;
+	padding: 1% 2%;
+	border: 1%; 
+	background-color: #cc00cc;
+	font-family: arial;
+	font-size: 1.5vw; 
+    text-decoration: none;	
+	}
+ul {
+	padding: 1%;
+	background-color: #cc00cc;
+	border: 1% solid purple;
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.1% 2%;
+    text-decoration: none;
+}
+
+li .dropdown:hover .dropbtn {
+    background-color: purple;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
